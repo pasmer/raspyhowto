@@ -1,9 +1,17 @@
 ---
 coverY: 0
+description: Here a dashboard to navigate inside the How To guide.
 ---
 
-# Welcome!
+# Raspberry Pi How To
 
-## Welcome aboard!
+## Sections
 
-Welcome to the company wiki! Here you'll find everything you need to know about the company.
+This guide is following a pratical approach to set up a running Raspberry Pi 4.
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [Raspberry Pi How To](README.md)
 
 ## Docker
 
