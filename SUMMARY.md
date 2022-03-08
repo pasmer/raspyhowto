@@ -14,3 +14,7 @@
 ## Hardware
 
 * [Hard Disk](hardware/hard-disk.md)
+
+## Commands
+
+* [Utilities](commands/utilities.md)
