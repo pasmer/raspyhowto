@@ -2,10 +2,11 @@
 
 * [Raspberry Pi How To](README.md)
 
-## Web Server
+## Server
 
-* [Nginx and PHP](web-server/nginx-and-php.md)
-* [Nextcloud](web-server/nextcloud.md)
+* [Nginx and PHP](server/nginx-and-php.md)
+* [Nextcloud](server/nextcloud.md)
+* [Gogs](server/gogs.md)
 
 ## Docker
 

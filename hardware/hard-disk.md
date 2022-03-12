@@ -26,7 +26,7 @@ UUID=800A5A900A5A82D8 /media/Repo ntfs-3g nofail,uid=1000,gid=1000,umask=0022,no
 
 #### Nextcloud case
 
-In order to use a HD with Nextcloud the mounting folder must be setted as following permission code 0770. See [nextcloud.md](../web-server/nextcloud.md "mention")
+In order to use a HD with Nextcloud the mounting folder must be setted as following permission code 0770. See [nextcloud.md](../server/nextcloud.md "mention")
 
 Then, the fstab command will be change as following:
 
