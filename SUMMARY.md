@@ -7,6 +7,7 @@
 * [Nginx and PHP](server/nginx-and-php.md)
 * [Nextcloud](server/nextcloud.md)
 * [Gogs](server/gogs.md)
+* [Deluge Torrent](server/deluge-torrent.md)
 
 ## Docker
 
