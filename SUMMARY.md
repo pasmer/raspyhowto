@@ -8,6 +8,7 @@
 * [Nextcloud](server/nextcloud.md)
 * [Gogs](server/gogs.md)
 * [Deluge Torrent](server/deluge-torrent.md)
+* [Twitter Spaces Downloader](server/twitter-spaces-downloader.md)
 
 ## Docker
 
