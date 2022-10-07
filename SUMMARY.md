@@ -22,3 +22,4 @@
 ## Commands
 
 * [Utilities](commands/utilities.md)
+* [SSL Cert](commands/ssl-cert.md)
