@@ -5,7 +5,8 @@
 ## Server
 
 * [Nginx and PHP](server/nginx-and-php.md)
-* [Nextcloud](server/nextcloud.md)
+* [Nextcloud](server/nextcloud/README.md)
+  * [Nginx configuration](server/nextcloud/nginx-configuration.md)
 * [Gogs](server/gogs.md)
 * [Deluge Torrent](server/deluge-torrent.md)
 * [Twitter Spaces Downloader](server/twitter-spaces-downloader.md)
