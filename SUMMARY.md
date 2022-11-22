@@ -23,5 +23,6 @@
 
 ## Commands
 
+* [MySql](commands/mysql.md)
 * [Utilities](commands/utilities.md)
 * [SSL Cert](commands/ssl-cert.md)
