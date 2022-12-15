@@ -6,9 +6,9 @@ Link: [https://mhagemann.medium.com/how-to-secure-nginx-with-certbot-on-ubuntu-1
 
 #### INSTALL - Ensure that your version of snapd is up to date&#x20;
 
-```
-sudo snap install core; sudo snap refresh core
-```
+<pre><code>sudo apt install snapd
+<strong>sudo snap install core; sudo snap refresh core
+</strong></code></pre>
 
 #### Remove certbot-auto and any Certbot OS packages:&#x20;
 
