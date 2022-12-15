@@ -7,7 +7,7 @@ Website NextcloudPi
 ### Run the docker:
 
 ```
-sudo docker run -d -p 4443:4443 -p 843:443 -p 8085:80 -v /media/cloud/NCProot/nextcloud/data:/opt/data -v ncpdata:/data --name nextcloudpi nextcloudpi64 cloud.merella.it
+sudo docker run -d -p 4443:4443 -p 843:443 -p 8085:80 -v /media/cloud/NCProot/nextcloud/data:/opt/data -v ncpdata:/data --restart always --name nextcloudpi nextcloudpi64 cloud.merella.it
 ```
 
 ### Instruction to create the image
