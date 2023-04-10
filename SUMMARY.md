@@ -8,6 +8,7 @@
 * [Nextcloud](server/nextcloud/README.md)
   * [Nginx configuration](server/nextcloud/nginx-configuration.md)
   * [Docker images](server/nextcloud/docker-images.md)
+  * [Add an HDD as external Drive](server/nextcloud/add-an-hdd-as-external-drive.md)
 * [Gogs](server/gogs.md)
 * [Deluge Torrent](server/deluge-torrent.md)
 * [Twitter Spaces Downloader](server/twitter-spaces-downloader.md)
