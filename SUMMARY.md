@@ -14,6 +14,7 @@
 * [Twitter Spaces Downloader](server/twitter-spaces-downloader.md)
 * [R Server & Shiny](server/r-server-and-shiny.md)
 * [CapRover](server/caprover.md)
+* [Proxy Nginx](server/proxy-nginx.md)
 
 ## Docker
 
