@@ -12,7 +12,8 @@
 * [Gogs](server/gogs.md)
 * [Deluge Torrent](server/deluge-torrent.md)
 * [Twitter Spaces Downloader](server/twitter-spaces-downloader.md)
-* [R Server & Shiny](server/r-server-and-shiny.md)
+* [R Server & Shiny](server/r-server-and-shiny/README.md)
+  * [Shiny Server (docker)](server/r-server-and-shiny/shiny-server-docker.md)
 * [CapRover](server/caprover.md)
 * [Proxy Nginx](server/proxy-nginx.md)
 
