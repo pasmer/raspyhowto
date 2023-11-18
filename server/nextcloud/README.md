@@ -13,6 +13,16 @@ chown -R www-data:www-data /media/cloud
 
 Notice: the folder /media/cloud is the mount folder included in [Fstab](../../hardware/hard-disk.md#fstab-file) file.
 
+
+
+### Scanning new file
+
+
+
+```
+sudo -u www-data ./occ files:scan --path="/USERNAME/files"
+```
+
 ## Administration
 
 ### Manage Apps
