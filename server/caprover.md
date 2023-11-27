@@ -19,3 +19,11 @@ Schema version
 }
 ```
 
+
+
+### Update an APP with a new image (after commit)
+
+After updating the source image with a commit (please see [Broken link](broken-reference "mention")), open "Deployment" tab in Caprover App dashboard. Use "**Method 6: Deploy via ImageName"** and write the Docker Hub name (e.g. pasmer/nextcloud:update) and deploy it (press on Deploy Now).
+
+
+
