@@ -46,3 +46,28 @@ sudo docker commit deddd39fa163 ubuntu-nmap
 ```
 
 Where **`deddd39fa163`** is the CONTAINER ID and **`ubuntu-nmap`** is the name of the new image.
+
+To find the CONTAINER ID run this from the host terminal:
+
+```
+sudo docker ps
+```
+
+Find the ID corresponding to IMAGE name.
+
+
+
+### Upload an image (after commit) to Docker Hub
+
+First things first, login to Docker:
+
+```
+sudo docker login --username email@server.com --password XXXXXXXXXX
+```
+
+A repository on your Docker Hub must be created, I assume that is "pasmer/nextcloud". Here the command to upload the new image (with the following tag: "update") from terminal:
+
+```
+sudo docker push pasmer/nextcloud:update
+```
+
