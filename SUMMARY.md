@@ -16,6 +16,7 @@
   * [Shiny Server (docker)](server/r-server-and-shiny/shiny-server-docker.md)
 * [CapRover](server/caprover.md)
 * [Proxy Nginx](server/proxy-nginx.md)
+* [Real VNC](server/real-vnc.md)
 
 ## Docker
 
