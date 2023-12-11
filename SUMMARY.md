@@ -14,7 +14,8 @@
 * [Twitter Spaces Downloader](server/twitter-spaces-downloader.md)
 * [R Server & Shiny](server/r-server-and-shiny/README.md)
   * [Shiny Server (docker)](server/r-server-and-shiny/shiny-server-docker.md)
-* [CapRover](server/caprover.md)
+* [CapRover](server/caprover/README.md)
+  * [Installation](server/caprover/installation.md)
 * [Proxy Nginx](server/proxy-nginx.md)
 * [Real VNC](server/real-vnc.md)
 
