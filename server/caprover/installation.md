@@ -1,6 +1,14 @@
 # Installation
 
+First things first, direct traffic from 80 and 443 and 3000 to Host (Raspberry Pi with Caprover) mapping throught the router.
 
+Specify the root name server. Then:
+
+1. Verified root name server domain
+2. Enable HTTPS
+3. Force HTTPS
+
+Restore the previous port mapping. Create a certificate on Nginx Proxy Server.
 
 ## Error in installation
 
