@@ -21,7 +21,7 @@
 
 ## Docker
 
-* [Comandi utili](docker/comandi-utili.md)
+* [Useful commands](docker/useful-commands.md)
 
 ## Hardware
 
@@ -32,3 +32,4 @@
 * [MySql](commands/mysql.md)
 * [Utilities](commands/utilities.md)
 * [SSL Cert](commands/ssl-cert.md)
+* [Shell commands](commands/shell-commands.md)
