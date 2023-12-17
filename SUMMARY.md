@@ -18,10 +18,11 @@
   * [Installation](server/caprover/installation.md)
 * [Proxy Nginx](server/proxy-nginx.md)
 * [Real VNC](server/real-vnc.md)
+* [Kasm Workspaces](server/kasm-workspaces.md)
 
 ## Docker
 
-* [Useful commands](docker/useful-commands.md)
+* [Useful commands](docker/comandi-utili.md)
 
 ## Hardware
 
