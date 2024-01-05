@@ -21,6 +21,32 @@ Schema version
 
 
 
+### New App using Template
+
+Use this for Shiny-Server:
+
+```
+captainVersion: 4
+caproverOneClickApp:
+    instructions:
+        start: Just a plain Docker Compose.
+        end: Docker Compose is deployed.
+########
+version: '3.3'
+services:
+  $$cap_appname:
+    image: hvalev/shiny-server-arm:latest
+    ports:
+      - 3838:3838
+    caproverExtra:
+      containerHttpPort: '3838'
+    volumes:
+       - $$cap_appname-apps:/srv/shiny-server/
+       - $$cap_appname-logs:/var/log/shiny-server/
+       - $$cap_appname-conf:/etc/shiny-server/
+    restart: always
+```
+
 ### Update an APP with a new image (after commit)
 
 After updating the source image with a commit (please see [Broken link](broken-reference "mention")), open "Deployment" tab in Caprover App dashboard. Use "**Method 6: Deploy via ImageName"** and write the Docker Hub name (e.g. pasmer/nextcloud:update) and deploy it (press on Deploy Now).
