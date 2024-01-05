@@ -19,3 +19,17 @@ The example below creates a symbolic link **(link-file.txt)** that points to the
 ```
 ln -s test/target-file.txt link-file.txt
 ```
+
+
+
+### Copy all files and folder from Source to Target
+
+You can copy the content of a folder `/source` to another existing folder `/dest` with the command
+
+```
+cp -a /source/. /dest/
+```
+
+The `-a` option is an improved recursive option, that preserve all file attributes, and also preserve symlinks.
+
+The `.` at end of the source path is a specific `cp` syntax that allow to copy all files and folders, included hidden ones.
