@@ -13,3 +13,13 @@ hvalev/shiny-server-arm:latest
 
 3. Create new Volumes for the APP folder (to be shared with Rserver)
 
+
+
+### Pandoc problem (how to solve)
+
+Access to the docker terminal and use this:
+
+```
+rm /usr/local/shiny-server/ext/pandoc/pandoc
+ln -s /usr/bin/pandoc /usr/local/shiny-server/ext/pandoc/pandoc
+```
