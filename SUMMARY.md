@@ -4,16 +4,17 @@
 
 ## Server
 
-* [Nginx and PHP](server/nginx-and-php.md)
+* [Nginx and PHP](server/nginx-and-php/README.md)
+  * [Reverse Proxy](server/nginx-and-php/reverse-proxy.md)
 * [Nextcloud](server/nextcloud/README.md)
   * [Nginx configuration](server/nextcloud/nginx-configuration.md)
   * [Docker images](server/nextcloud/docker-images.md)
   * [Add an HDD as external Drive](server/nextcloud/add-an-hdd-as-external-drive.md)
 * [Gogs](server/gogs.md)
 * [Deluge Torrent](server/deluge-torrent.md)
-* [Twitter Spaces Downloader](server/twitter-spaces-downloader.md)
-* [R Server & Shiny](server/r-server-and-shiny/README.md)
-  * [Shiny Server (docker)](server/r-server-and-shiny/shiny-server-docker.md)
+* [Twitter Spaces Downloader](server/twitter-spaces-downloader/README.md)
+  * [R Server & Shiny](server/twitter-spaces-downloader/r-server-and-shiny/README.md)
+    * [Shiny Server (docker)](server/twitter-spaces-downloader/r-server-and-shiny/shiny-server-docker.md)
 * [CapRover](server/caprover/README.md)
   * [Installation](server/caprover/installation.md)
 * [Proxy Nginx](server/proxy-nginx.md)
