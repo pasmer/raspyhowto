@@ -74,6 +74,34 @@ Find the ID corresponding to IMAGE name.
 
 
 
+### Tagging During the Docker Image Build Process
+
+Tagging a Docker image during the build process is straightforward. You can do this by using the `-t` option followed by the repository name and tag name when you run the `docker build` command. For example:
+
+```bash
+docker build -t myapp:1.0 .
+```
+
+BashCopy
+
+In this command, `myapp` is the repository name and `1.0` is the tag name. The `.` at the end of the command tells Docker to build the image using the Dockerfile in the current directory.
+
+
+
+### Tagging After the Docker Image Build Process
+
+You can also tag a Docker image after it has been built. This is done using the `docker tag` command. For example:
+
+```bash
+docker tag image_id myapp:2.0
+```
+
+BashCopy
+
+In this command, `image_id` is the ID of the image you want to tag, `myapp` is the repository name, and `2.0` is the tag name. You can find the image ID by using the [`docker images`](https://ioflood.com/blog/docker-list-images-easy-guide-to-docker-images-ls-command/) command, which lists all your Docker images along with their IDs.
+
+
+
 ### Upload an image (after commit) to Docker Hub
 
 First things first, login to Docker:
