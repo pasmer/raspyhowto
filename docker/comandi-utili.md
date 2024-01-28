@@ -48,6 +48,16 @@ Let’s explore some of the most commonly used Docker commands that can help you
     docker cp sitecore-xm1_cm_1:"C:\inetpub\wwwroot\App_Data\logs" "C:\" 
     ```
 
+## Connect to the Container's terminal <a href="#ftoc-heading-5" id="ftoc-heading-5"></a>
+
+This command is used to access the container that is running. Find the Container ID (docker ps -a) Here is how to use it:
+
+```
+docker exec -it CONTAINERID bash
+mysql -uroot -pmy-secret-pw
+SHOW DATABASES;
+```
+
 ## Commit Changes to Image <a href="#ftoc-heading-5" id="ftoc-heading-5"></a>
 
 Finally, create a new image by committing the changes using the following syntax:
