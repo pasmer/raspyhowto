@@ -37,3 +37,36 @@ rmarkdown::render('file.Rmd', output_file='file.html')
 rmarkdown::render('file.Rmd', output_file='file.pdf')
 
 ```
+
+Prove
+
+
+
+```
+docker run -v /path/to/your/roms:/roms -p 80:80 pasmer/retroarch
+
+
+captainVersion: 4
+services:
+    $$cap_appname:
+        image: pasmer/retroarch:latest
+        restart: always
+        environment:
+            USER: 'root'
+            PASSWORD: 'Skynet'
+        ports:
+            - '8777:80'
+        volumes:
+            - $$cap_appname-roms:/roms
+        caproverExtra:
+            containerHttpPort: '80'
+caproverOneClickApp:
+    instructions:
+        start: Inizio
+        end: Fine
+    description: Test descrizione
+
+
+ENV USER=root
+ENV PASSWORD=password1
+```
