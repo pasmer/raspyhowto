@@ -20,6 +20,7 @@
 * [Proxy Nginx](server/proxy-nginx.md)
 * [Real VNC](server/real-vnc.md)
 * [Kasm Workspaces](server/kasm-workspaces.md)
+* [ZRAM](server/zram.md)
 
 ## Docker
 
