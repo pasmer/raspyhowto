@@ -40,6 +40,12 @@ The `.` at end of the source path is a specific `cp` syntax that allow to copy a
 
 The `find` command lets you efficiently search for files, folders, and character and block devices.
 
+Search in the current folder and sub-folder, example:
+
+```
+find . -type f -iname "*.txt"
+```
+
 Below is the basic syntax of the `find` command:
 
 ```bash
