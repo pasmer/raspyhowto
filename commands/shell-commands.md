@@ -72,3 +72,14 @@ Where,
 LInk:
 
 {% embed url="https://www.freecodecamp.org/news/how-to-search-for-files-from-the-linux-command-line/" %}
+
+
+
+### HD Speed Test
+
+Launch the shell prompt or use ssh to access a distant server. To gauge server throughput (write speed), use the dd command:
+
+```
+sudo dd if=/dev/zero of=/tmp/test1.img bs=1G count=1 oflag=dsync
+```
+
