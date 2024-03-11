@@ -73,8 +73,6 @@ LInk:
 
 {% embed url="https://www.freecodecamp.org/news/how-to-search-for-files-from-the-linux-command-line/" %}
 
-
-
 ### HD Speed Test
 
 Launch the shell prompt or use ssh to access a distant server. To gauge server throughput (write speed), use the dd command:
@@ -83,3 +81,20 @@ Launch the shell prompt or use ssh to access a distant server. To gauge server t
 sudo dd if=/dev/zero of=/tmp/test1.img bs=1G count=1 oflag=dsync
 ```
 
+
+
+### APT update key signature
+
+If you get this error:&#x20;
+
+### W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://packages.sury.org/php buster InRelease: The following signatures were invalid: EXPKEYSIG <mark style="background-color:orange;">B188E2B695BD4743</mark> DEB.SURY.ORG Automatic Signing Key \<deb@sury.org>
+
+The error message indicates a problem with the GPG key used to verify the integrity of packages from the Sury repository on your Raspberry Pi. Here's how to fix it:
+
+**1. Update the GPG Key:**
+
+There might be an outdated GPG key causing the verification issue. Try updating the key with this command:
+
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B188E2B695BD4743
+```
