@@ -571,3 +571,9 @@ fdisk -l
 # Other way:
 fsck -y /dev/sdb1
 ```
+
+For NTFS use this:
+
+```
+sudo ntfsfix -b -d /dev/sda1
+```
