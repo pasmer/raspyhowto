@@ -20,3 +20,12 @@ Per usare il tuo HD esterno come cartella per salvare i file degli utenti, devi 
 Spero che questo ti sia stato utile. Se hai altre domande, fammelo sapere.
 
 Origine: conversazione con Bing, 10/04/2023(1) How to add HDD storage (local external storage) on Nextcloudpi (docker .... https://help.nextcloud.com/t/how-to-add-hdd-storage-local-external-storage-on-nextcloudpi-docker-raspberrypi/129250 Ultimo accesso 10/04/2023. (2) Configuring External Storage (GUI) - Nextcloud Documentation. https://docs.nextcloud.com/server/latest/admin\_manual/configuration\_files/external\_storage\_configuration\_gui.html Ultimo accesso 10/04/2023. (3) Personal cloud with Raspberry Pi and NextCloud on Docker - peppe8o. https://peppe8o.com/personal-cloud-with-raspberry-pi-and-nextcloud-on-docker/ Ultimo accesso 10/04/2023.
+
+
+
+### Problems with external HD and user rights
+
+Error: Please change the permissions to 0770 so that the directory cannot be listed by other users
+
+Add this to the settings in config.php:\
+`'check_data_directory_permissions' => false,`
