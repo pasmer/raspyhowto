@@ -26,6 +26,7 @@
 ## Docker
 
 * [Useful commands](docker/comandi-utili.md)
+* [How to build an app](docker/how-to-build-an-app.md)
 
 ## Hardware
 
