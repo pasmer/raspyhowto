@@ -6,6 +6,8 @@
 
 * [Nginx and PHP](server/nginx-and-php/README.md)
   * [Reverse Proxy](server/nginx-and-php/reverse-proxy.md)
+  * [Proxy Nginx for Umbrel OS](server/nginx-and-php/proxy-nginx-for-umbrel-os.md)
+* [Proxy Nginx](server/proxy-nginx.md)
 * [Nextcloud](server/nextcloud/README.md)
   * [Nginx configuration Example 1](server/nextcloud/nginx-configuration-example-1.md)
   * [Docker images](server/nextcloud/docker-images.md)
@@ -18,7 +20,6 @@
     * [Shiny Server (docker)](server/twitter-spaces-downloader/r-server-and-shiny/shiny-server-docker.md)
 * [CapRover](server/caprover/README.md)
   * [Installation](server/caprover/installation.md)
-* [Proxy Nginx](server/proxy-nginx.md)
 * [Real VNC](server/real-vnc.md)
 * [Kasm Workspaces](server/kasm-workspaces.md)
 * [ZRAM](server/zram.md)
