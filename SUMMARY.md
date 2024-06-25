@@ -26,6 +26,7 @@
 
 ## Docker
 
+* [Pre-requirement for Docker](docker/pre-requirement-for-docker.md)
 * [Useful commands](docker/comandi-utili.md)
 * [How to build an app](docker/how-to-build-an-app.md)
 
