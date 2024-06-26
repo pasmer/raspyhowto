@@ -77,7 +77,7 @@ ENV PASSWORD=password1
 version: '3.8'
 services:
   app:
-    image: 'yobasystems/alpine-mariadb:latest'
+    image: 'jc21/nginx-proxy-manager:latest'
     restart: unless-stopped
     ports:
       # These ports are in format <host-port>:<container-port>
