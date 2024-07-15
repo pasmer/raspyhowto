@@ -41,3 +41,7 @@
 * [SSL Cert](commands/ssl-cert.md)
 * [Shell commands](commands/shell-commands.md)
 * [TMP](commands/tmp.md)
+
+## Umbrel OS
+
+* [Collabora online for Nextcloud](umbrel-os/collabora-online-for-nextcloud.md)
