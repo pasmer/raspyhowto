@@ -45,3 +45,4 @@
 ## Umbrel OS
 
 * [Collabora online for Nextcloud](umbrel-os/collabora-online-for-nextcloud.md)
+* [Nextcloud issues](umbrel-os/nextcloud-issues.md)
