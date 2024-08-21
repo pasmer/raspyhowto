@@ -20,7 +20,7 @@
     * [Shiny Server (docker)](server/twitter-spaces-downloader/r-server-and-shiny/shiny-server-docker.md)
 * [CapRover](server/caprover/README.md)
   * [Installation](server/caprover/installation.md)
-* [Real VNC](server/real-vnc.md)
+* [Server VNC](server/server-vnc.md)
 * [Kasm Workspaces](server/kasm-workspaces.md)
 * [ZRAM](server/zram.md)
 
